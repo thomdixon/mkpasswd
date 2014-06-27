@@ -16,6 +16,8 @@ but additional options are available via
 
 You can also use the script as a Python module with
 
+    ```python
     from mkpasswd import mkpasswd
     password = mkpasswd()
+    ```
     
