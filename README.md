@@ -2,7 +2,7 @@
 
 Python script and module for generating random passwords. Based on the most
 fundamental features from Don Libes' expect script. This script is compatible 
-with both Python 2 ans Python 3.
+with both Python 2 and Python 3.
 
 # Usage
 
