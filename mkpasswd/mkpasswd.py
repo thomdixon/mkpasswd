@@ -38,7 +38,8 @@ def mkpasswd(length=LEGNTH,
 
     return ''.join(result)
 
-if __name__ == '__main__':
+
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-l',
                         '--length',
@@ -69,3 +70,6 @@ if __name__ == '__main__':
 
     print(mkpasswd(args.length, args.lower,
           args.upper, args.digits, args.special))
+
+if __name__ == '__main__':
+    main()

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from mkpasswd import mkpasswd
+from mkpasswd import mkpasswd, main
 
 
-__all__ = ['mkpasswd']
+__all__ = ['mkpasswd', 'main']

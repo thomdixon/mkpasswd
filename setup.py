@@ -14,6 +14,9 @@ setup(
     author_email='thom@thomdixon.org',
     description=('A CLI tool and module for generating random passwords'),
     long_description=read('README.md'),
+    entry_points={
+        'console_scripts': ['mkpasswd-py=mkpasswd:main']
+    },
     packages=['mkpasswd'],
     zip_safe=False
 )
