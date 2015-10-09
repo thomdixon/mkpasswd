@@ -4,7 +4,13 @@ from __future__ import print_function
 
 import argparse
 from random import choice, shuffle
-from string import *
+from string import (
+    ascii_letters,
+    ascii_lowercase,
+    ascii_uppercase,
+    digits,
+    punctuation
+)
 
 LEGNTH = 10
 MIN_LOWERCASE = 2

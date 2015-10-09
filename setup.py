@@ -9,7 +9,7 @@ def read(fname):
 
 setup(
     name='mkpasswd',
-    version='1.0',
+    version='1.1',
     author='Thom Dixon',
     author_email='thom@thomdixon.org',
     description=('A CLI tool and module for generating random passwords'),
